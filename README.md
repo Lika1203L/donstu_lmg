@@ -10,3 +10,7 @@ def check_divisibility():
         result_label.setText('Кратно пяти: Да') # Выводим результат на экран
     else:
         result_label.setText('Кратно пяти: Нет') # Выводим результат на экран
+
+app = QApplication(sys.argv)
+window = QWidget()
+window.setWindowTitle('Вычисление суммы и кратности')
