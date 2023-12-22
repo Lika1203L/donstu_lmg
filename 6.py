@@ -1,6 +1,10 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
 
+
+print("hello world!")
+
+
 # Функция для вычисления суммы цифр двузначного числа
 def calculate_sum():
     number = int(line_edit.text()) # Получаем введенное пользователем число
